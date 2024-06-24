@@ -1,0 +1,38 @@
+# MATLAB specific ignores
+*.asv
+*.autosave
+*.m~
+*.mlx~
+*.mexa64
+*.mexmaci64
+*.mexw32
+*.mexw64
+*.rpt
+*.slxc
+*.mlappinstall
+*.mlpkginstall
+*.mn
+*.mnr
+*.mnv
+*.mnx
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*~
+*.bak
+
+# System specific
+.DS_Store
+Thumbs.db
+
+# Ignore all subdirectories under the given paths
+data/
+docs/
+examples/
+
+# Ignore MATLAB crash dump files
+matlab_crash_dump.*
